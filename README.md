@@ -36,6 +36,7 @@ It is *not* a general-purpose AI — it only answers finance-related queries and
 
 ```
 project/
+│── .env              # Environment file
 │── app.py            # Main application file (Streamlit UI)
 │── agent.py          # Backend (LangGraph)
 │── README.md         # Documentation
@@ -183,3 +184,4 @@ chatbot = graph.compile(checkpointer=checkpointer)
 | Backend Language | Python           |
 
 ---
+
