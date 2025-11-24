@@ -91,18 +91,12 @@ venv\Scripts\activate          # Windows
 pip install langchain langgraph langchain-google-genai langgraph-checkpoint-sqlite streamlit dotenv
 ```
 
-### 4. Set the Gemini API Key
 
-#### Windows
+### 4. Add Your Gemini API Key to `.env`
 
-```bash
-setx GEMINI_API_KEY "your_api_key_here"
+Update the `.env` file in your project directory:
 ```
-
-#### Mac/Linux
-
-```bash
-export GEMINI_API_KEY="your_api_key_here"
+GEMINI_API_KEY=your_api_key_here
 ```
 
 ---
@@ -184,4 +178,5 @@ chatbot = graph.compile(checkpointer=checkpointer)
 | Backend Language | Python           |
 
 ---
+
 
