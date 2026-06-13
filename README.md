@@ -96,7 +96,7 @@ pip install langchain langgraph langchain-google-genai langgraph-checkpoint-sqli
 
 Update the `.env` file in your project directory:
 ```
-GEMINI_API_KEY=your_api_key_here
+GOOGLE_API_KEY=your_api_key_here
 ```
 
 ---
